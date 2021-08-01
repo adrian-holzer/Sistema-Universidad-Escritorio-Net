@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{36827368-EAC9-4B4E-B7B2-DB29608DFDB1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Presentacion</RootNamespace>
+    <AssemblyName>Presentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AltaProfesor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AltaProfesor.Designer.cs">
+      <DependentUpon>AltaProfesor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlumnoBaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlumnoBaja.Designer.cs">
+      <DependentUpon>AlumnoBaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlumnoMateriasEstado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlumnoMateriasEstado.Designer.cs">
+      <DependentUpon>AlumnoMateriasEstado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlumnoModificar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlumnoModificar.Designer.cs">
+      <DependentUpon>AlumnoModificar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BajaProfesores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BajaProfesores.Designer.cs">
+      <DependentUpon>BajaProfesores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Baja_Profes_ModifDictadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Baja_Profes_ModifDictadas.Designer.cs">
+      <DependentUpon>Baja_Profes_ModifDictadas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComprobanteAltaAlumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComprobanteAltaAlumno.Designer.cs">
+      <DependentUpon>ComprobanteAltaAlumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComprobanteInscripcionACursado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComprobanteInscripcionACursado.Designer.cs">
+      <DependentUpon>ComprobanteInscripcionACursado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comprobante_Inscripcion_ExamenFinal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comprobante_Inscripcion_ExamenFinal.Designer.cs">
+      <DependentUpon>Comprobante_Inscripcion_ExamenFinal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioPrincipal.Designer.cs">
+      <DependentUpon>FormularioPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAltaAlumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAltaAlumno.Designer.cs">
+      <DependentUpon>FrmAltaAlumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAltaMateria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAltaMateria.Designer.cs">
+      <DependentUpon>FrmAltaMateria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBajaMateria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBajaMateria.Designer.cs">
+      <DependentUpon>FrmBajaMateria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInscribirAMateria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInscribirAMateria.Designer.cs">
+      <DependentUpon>FrmInscribirAMateria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListadoMaterias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListadoMaterias.Designer.cs">
+      <DependentUpon>FrmListadoMaterias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmModifCorr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModifCorr.Designer.cs">
+      <DependentUpon>FrmModifCorr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmModificarMateria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModificarMateria.Designer.cs">
+      <DependentUpon>FrmModificarMateria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inscribir_Final_Alumno_Materia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inscribir_Final_Alumno_Materia.Designer.cs">
+      <DependentUpon>Inscribir_Final_Alumno_Materia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoAulas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoAulas.Designer.cs">
+      <DependentUpon>InfoAulas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InformacionCurso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InformacionCurso.Designer.cs">
+      <DependentUpon>InformacionCurso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Info_Curso_Materias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info_Curso_Materias.Designer.cs">
+      <DependentUpon>Info_Curso_Materias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inscribir_Final_Alumnos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inscribir_Final_Alumnos.Designer.cs">
+      <DependentUpon>Inscribir_Final_Alumnos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InscripcionCursado_Comprobante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InscripcionCursado_Comprobante.Designer.cs">
+      <DependentUpon>InscripcionCursado_Comprobante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaMateriasAprobadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaMateriasAprobadas.Designer.cs">
+      <DependentUpon>ListaMateriasAprobadas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaMateriasCursando.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaMateriasCursando.Designer.cs">
+      <DependentUpon>ListaMateriasCursando.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaMateriasRegulares.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaMateriasRegulares.Designer.cs">
+      <DependentUpon>ListaMateriasRegulares.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Materias_Informacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Materias_Informacion.Designer.cs">
+      <DependentUpon>Materias_Informacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Materias_Informacion_AlumnosCursa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Materias_Informacion_AlumnosCursa.Designer.cs">
+      <DependentUpon>Materias_Informacion_AlumnosCursa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarAula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarAula.Designer.cs">
+      <DependentUpon>ModificarAula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarProfesor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarProfesor.Designer.cs">
+      <DependentUpon>ModificarProfesor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarNotaAluMat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarNotaAluMat.Designer.cs">
+      <DependentUpon>RegistrarNotaAluMat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarNotaAlumnos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarNotaAlumnos.Designer.cs">
+      <DependentUpon>RegistrarNotaAlumnos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarParciales_Recuperatorios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarParciales_Recuperatorios.Designer.cs">
+      <DependentUpon>RegistrarParciales_Recuperatorios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registrar_Final_Materias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registrar_Final_Materias.Designer.cs">
+      <DependentUpon>Registrar_Final_Materias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registrar_Final_Materias_AlumnosInsc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registrar_Final_Materias_AlumnosInsc.Designer.cs">
+      <DependentUpon>Registrar_Final_Materias_AlumnosInsc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registrar_Final_Materias_AlumnosInsc_Nota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registrar_Final_Materias_AlumnosInsc_Nota.Designer.cs">
+      <DependentUpon>Registrar_Final_Materias_AlumnosInsc_Nota.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <EmbeddedResource Include="AltaProfesor.resx">
+      <DependentUpon>AltaProfesor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlumnoBaja.resx">
+      <DependentUpon>AlumnoBaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlumnoMateriasEstado.resx">
+      <DependentUpon>AlumnoMateriasEstado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlumnoModificar.resx">
+      <DependentUpon>AlumnoModificar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BajaProfesores.resx">
+      <DependentUpon>BajaProfesores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Baja_Profes_ModifDictadas.resx">
+      <DependentUpon>Baja_Profes_ModifDictadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComprobanteAlta.rdlc" />
+    <EmbeddedResource Include="ComprobanteAltaAlumno.resx">
+      <DependentUpon>ComprobanteAltaAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComprobanteInscripcionACursado.resx">
+      <DependentUpon>ComprobanteInscripcionACursado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComprobanteInscripcionCursado.rdlc" />
+    <EmbeddedResource Include="Comprobante_Inscripcion_ExamenFinal.resx">
+      <DependentUpon>Comprobante_Inscripcion_ExamenFinal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comprobante_Inscripcion_Final.rdlc" />
+    <EmbeddedResource Include="FormularioPrincipal.resx">
+      <DependentUpon>FormularioPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAltaAlumno.resx">
+      <DependentUpon>FrmAltaAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAltaMateria.resx">
+      <DependentUpon>FrmAltaMateria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBajaMateria.resx">
+      <DependentUpon>FrmBajaMateria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInscribirAMateria.resx">
+      <DependentUpon>FrmInscribirAMateria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListadoMaterias.resx">
+      <DependentUpon>FrmListadoMaterias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModifCorr.resx">
+      <DependentUpon>FrmModifCorr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModificarMateria.resx">
+      <DependentUpon>FrmModificarMateria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inscribir_Final_Alumno_Materia.resx">
+      <DependentUpon>Inscribir_Final_Alumno_Materia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoAulas.resx">
+      <DependentUpon>InfoAulas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InformacionCurso.resx">
+      <DependentUpon>InformacionCurso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info_Curso_Materias.resx">
+      <DependentUpon>Info_Curso_Materias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inscribir_Final_Alumnos.resx">
+      <DependentUpon>Inscribir_Final_Alumnos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InscripcionCursado_Comprobante.resx">
+      <DependentUpon>InscripcionCursado_Comprobante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaMateriasAprobadas.resx">
+      <DependentUpon>ListaMateriasAprobadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaMateriasCursando.resx">
+      <DependentUpon>ListaMateriasCursando.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaMateriasRegulares.resx">
+      <DependentUpon>ListaMateriasRegulares.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Materias_Informacion.resx">
+      <DependentUpon>Materias_Informacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Materias_Informacion_AlumnosCursa.resx">
+      <DependentUpon>Materias_Informacion_AlumnosCursa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarAula.resx">
+      <DependentUpon>ModificarAula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarProfesor.resx">
+      <DependentUpon>ModificarProfesor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarNotaAluMat.resx">
+      <DependentUpon>RegistrarNotaAluMat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarNotaAlumnos.resx">
+      <DependentUpon>RegistrarNotaAlumnos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarParciales_Recuperatorios.resx">
+      <DependentUpon>RegistrarParciales_Recuperatorios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registrar_Final_Materias.resx">
+      <DependentUpon>Registrar_Final_Materias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registrar_Final_Materias_AlumnosInsc.resx">
+      <DependentUpon>Registrar_Final_Materias_AlumnosInsc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registrar_Final_Materias_AlumnosInsc_Nota.resx">
+      <DependentUpon>Registrar_Final_Materias_AlumnosInsc_Nota.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\Datos.Alumno.datasource" />
+    <None Include="Properties\DataSources\Datos.Curso.datasource" />
+    <None Include="Properties\DataSources\Datos.CursoMateria.datasource" />
+    <None Include="Properties\DataSources\Datos.Division.datasource" />
+    <None Include="Properties\DataSources\Datos.Materia.datasource" />
+    <None Include="Properties\DataSources\Datos.Profesor.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Datos\Datos.csproj">
+      <Project>{944e1a73-41c3-419c-b621-d09c92b0ae43}</Project>
+      <Name>Datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Negocio\Negocio.csproj">
+      <Project>{71180412-04a4-4791-a661-bc0013dea2eb}</Project>
+      <Name>Negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estudiante.png" />
+    <None Include="Resources\profesor.png" />
+    <None Include="Resources\materias.png" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

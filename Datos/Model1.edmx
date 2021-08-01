@@ -1,0 +1,645 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="DB_UniversidadModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Alumno">
+          <Key>
+            <PropertyRef Name="Matricula" />
+          </Key>
+          <Property Name="Matricula" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NombreYApellido" Type="varchar" MaxLength="45" />
+          <Property Name="Direccion" Type="varchar" MaxLength="45" />
+          <Property Name="Telefono" Type="char" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="Aula">
+          <Key>
+            <PropertyRef Name="idAula" />
+          </Key>
+          <Property Name="idAula" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NombreAula" Type="nchar" MaxLength="10" />
+          <Property Name="ConexionRed" Type="bit" />
+          <Property Name="Proyector" Type="bit" />
+          <Property Name="Capacidad" Type="int" />
+        </EntityType>
+        <EntityType Name="Correlativa">
+          <Key>
+            <PropertyRef Name="idCorrelativa" />
+          </Key>
+          <Property Name="idCorrelativa" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="idMateria" Type="int" />
+          <Property Name="Nombre" Type="varchar" MaxLength="50" />
+          <Property Name="Requisito" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Curso">
+          <Key>
+            <PropertyRef Name="idCurso" />
+          </Key>
+          <Property Name="idCurso" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="char" MaxLength="20" />
+          <Property Name="idAula" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="CursoMateria">
+          <Key>
+            <PropertyRef Name="idCursoMateria" />
+          </Key>
+          <Property Name="idCursoMateria" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="idDivision" Type="int" />
+          <Property Name="idMateria" Type="int" Nullable="false" />
+          <Property Name="Matricula" Type="int" Nullable="false" />
+          <Property Name="PrimerParcial" Type="int" />
+          <Property Name="SegundoParcial" Type="int" />
+          <Property Name="TercerParcial" Type="int" />
+          <Property Name="PrimerRecuperatorio" Type="int" />
+          <Property Name="SegundoRecuperatorio" Type="int" />
+          <Property Name="Estado" Type="varchar" MaxLength="50" />
+          <Property Name="NotaFinal" Type="int" />
+          <Property Name="Inscripcion_EFinal" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Division">
+          <Key>
+            <PropertyRef Name="idDivision" />
+          </Key>
+          <Property Name="idDivision" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NombreDivision" Type="char" MaxLength="10" />
+          <Property Name="idCurso" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Final">
+          <Key>
+            <PropertyRef Name="intIdFinal" />
+          </Key>
+          <Property Name="intIdFinal" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="idCursoMateria" Type="int" Nullable="false" />
+          <Property Name="NotaExamen" Type="int" />
+          <Property Name="EstadoEFinal" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Materia">
+          <Key>
+            <PropertyRef Name="idMateria" />
+          </Key>
+          <Property Name="idMateria" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="varchar" MaxLength="25" />
+          <Property Name="Legajo" Type="int" Nullable="false" />
+          <Property Name="IdCurso" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Profesor">
+          <Key>
+            <PropertyRef Name="Legajo" />
+          </Key>
+          <Property Name="Legajo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NombreYApellido" Type="varchar" MaxLength="55" />
+          <Property Name="Direccion" Type="varchar" MaxLength="45" />
+          <Property Name="Telefono" Type="char" MaxLength="10" />
+          <Property Name="DNI" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <Association Name="FK_Correlativa_Materia">
+          <End Role="Materia" Type="Self.Materia" Multiplicity="0..1" />
+          <End Role="Correlativa" Type="Self.Correlativa" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Materia">
+              <PropertyRef Name="idMateria" />
+            </Principal>
+            <Dependent Role="Correlativa">
+              <PropertyRef Name="idMateria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Curso_Aula">
+          <End Role="Aula" Type="Self.Aula" Multiplicity="1" />
+          <End Role="Curso" Type="Self.Curso" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Aula">
+              <PropertyRef Name="idAula" />
+            </Principal>
+            <Dependent Role="Curso">
+              <PropertyRef Name="idAula" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CursoMateria_Division">
+          <End Role="Division" Type="Self.Division" Multiplicity="0..1" />
+          <End Role="CursoMateria" Type="Self.CursoMateria" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Division">
+              <PropertyRef Name="idDivision" />
+            </Principal>
+            <Dependent Role="CursoMateria">
+              <PropertyRef Name="idDivision" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CursoMateria_Materia">
+          <End Role="Materia" Type="Self.Materia" Multiplicity="1" />
+          <End Role="CursoMateria" Type="Self.CursoMateria" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Materia">
+              <PropertyRef Name="idMateria" />
+            </Principal>
+            <Dependent Role="CursoMateria">
+              <PropertyRef Name="idMateria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Division_Curso">
+          <End Role="Curso" Type="Self.Curso" Multiplicity="1" />
+          <End Role="Division" Type="Self.Division" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Curso">
+              <PropertyRef Name="idCurso" />
+            </Principal>
+            <Dependent Role="Division">
+              <PropertyRef Name="idCurso" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Final_CursoMateria">
+          <End Role="CursoMateria" Type="Self.CursoMateria" Multiplicity="1" />
+          <End Role="Final" Type="Self.Final" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CursoMateria">
+              <PropertyRef Name="idCursoMateria" />
+            </Principal>
+            <Dependent Role="Final">
+              <PropertyRef Name="idCursoMateria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Materia_Curso">
+          <End Role="Curso" Type="Self.Curso" Multiplicity="1" />
+          <End Role="Materia" Type="Self.Materia" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Curso">
+              <PropertyRef Name="idCurso" />
+            </Principal>
+            <Dependent Role="Materia">
+              <PropertyRef Name="IdCurso" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RefAlumno5">
+          <End Role="Alumno" Type="Self.Alumno" Multiplicity="1" />
+          <End Role="CursoMateria" Type="Self.CursoMateria" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Alumno">
+              <PropertyRef Name="Matricula" />
+            </Principal>
+            <Dependent Role="CursoMateria">
+              <PropertyRef Name="Matricula" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RefProfesor10">
+          <End Role="Profesor" Type="Self.Profesor" Multiplicity="1" />
+          <End Role="Materia" Type="Self.Materia" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Profesor">
+              <PropertyRef Name="Legajo" />
+            </Principal>
+            <Dependent Role="Materia">
+              <PropertyRef Name="Legajo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DB_UniversidadModelStoreContainer">
+          <EntitySet Name="Alumno" EntityType="Self.Alumno" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Aula" EntityType="Self.Aula" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Correlativa" EntityType="Self.Correlativa" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Curso" EntityType="Self.Curso" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CursoMateria" EntityType="Self.CursoMateria" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Division" EntityType="Self.Division" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Final" EntityType="Self.Final" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Materia" EntityType="Self.Materia" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Profesor" EntityType="Self.Profesor" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Correlativa_Materia" Association="Self.FK_Correlativa_Materia">
+            <End Role="Materia" EntitySet="Materia" />
+            <End Role="Correlativa" EntitySet="Correlativa" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Curso_Aula" Association="Self.FK_Curso_Aula">
+            <End Role="Aula" EntitySet="Aula" />
+            <End Role="Curso" EntitySet="Curso" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CursoMateria_Division" Association="Self.FK_CursoMateria_Division">
+            <End Role="Division" EntitySet="Division" />
+            <End Role="CursoMateria" EntitySet="CursoMateria" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CursoMateria_Materia" Association="Self.FK_CursoMateria_Materia">
+            <End Role="Materia" EntitySet="Materia" />
+            <End Role="CursoMateria" EntitySet="CursoMateria" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Division_Curso" Association="Self.FK_Division_Curso">
+            <End Role="Curso" EntitySet="Curso" />
+            <End Role="Division" EntitySet="Division" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Final_CursoMateria" Association="Self.FK_Final_CursoMateria">
+            <End Role="CursoMateria" EntitySet="CursoMateria" />
+            <End Role="Final" EntitySet="Final" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Materia_Curso" Association="Self.FK_Materia_Curso">
+            <End Role="Curso" EntitySet="Curso" />
+            <End Role="Materia" EntitySet="Materia" />
+          </AssociationSet>
+          <AssociationSet Name="RefAlumno5" Association="Self.RefAlumno5">
+            <End Role="Alumno" EntitySet="Alumno" />
+            <End Role="CursoMateria" EntitySet="CursoMateria" />
+          </AssociationSet>
+          <AssociationSet Name="RefProfesor10" Association="Self.RefProfesor10">
+            <End Role="Profesor" EntitySet="Profesor" />
+            <End Role="Materia" EntitySet="Materia" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DB_UniversidadModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Alumno">
+          <Key>
+            <PropertyRef Name="Matricula" />
+          </Key>
+          <Property Name="Matricula" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NombreYApellido" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="Direccion" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="Telefono" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+          <NavigationProperty Name="CursoMateria" Relationship="Self.RefAlumno5" FromRole="Alumno" ToRole="CursoMateria" />
+        </EntityType>
+        <EntityType Name="Aula">
+          <Key>
+            <PropertyRef Name="idAula" />
+          </Key>
+          <Property Name="idAula" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NombreAula" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="ConexionRed" Type="Boolean" />
+          <Property Name="Proyector" Type="Boolean" />
+          <Property Name="Capacidad" Type="Int32" />
+          <NavigationProperty Name="Curso" Relationship="DB_UniversidadModel.FK_Curso_Aula" FromRole="Aula" ToRole="Curso" />
+        </EntityType>
+        <EntityType Name="Correlativa">
+          <Key>
+            <PropertyRef Name="idCorrelativa" />
+          </Key>
+          <Property Name="idCorrelativa" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="idMateria" Type="Int32" />
+          <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Requisito" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Materia" Relationship="Self.FK_Correlativa_Materia" FromRole="Correlativa" ToRole="Materia" />
+        </EntityType>
+        <EntityType Name="Curso">
+          <Key>
+            <PropertyRef Name="idCurso" />
+          </Key>
+          <Property Name="idCurso" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+          <Property Name="idAula" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Aula" Relationship="DB_UniversidadModel.FK_Curso_Aula" FromRole="Curso" ToRole="Aula" />
+          <NavigationProperty Name="Division1" Relationship="DB_UniversidadModel.FK_Division_Curso" FromRole="Curso" ToRole="Division" />
+          <NavigationProperty Name="Materia" Relationship="DB_UniversidadModel.FK_Materia_Curso" FromRole="Curso" ToRole="Materia" />
+        </EntityType>
+        <EntityType Name="CursoMateria">
+          <Key>
+            <PropertyRef Name="idCursoMateria" />
+          </Key>
+          <Property Name="idCursoMateria" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="idMateria" Type="Int32" Nullable="false" />
+          <Property Name="Matricula" Type="Int32" Nullable="false" />
+          <Property Name="PrimerParcial" Type="Int32" />
+          <Property Name="SegundoParcial" Type="Int32" />
+          <Property Name="TercerParcial" Type="Int32" />
+          <Property Name="PrimerRecuperatorio" Type="Int32" />
+          <Property Name="SegundoRecuperatorio" Type="Int32" />
+          <Property Name="Estado" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Alumno" Relationship="Self.RefAlumno5" FromRole="CursoMateria" ToRole="Alumno" />
+          <NavigationProperty Name="Materia" Relationship="Self.RefMateria1" FromRole="CursoMateria" ToRole="Materia" />
+          <Property Name="idDivision" Type="Int32" />
+          <NavigationProperty Name="Division" Relationship="DB_UniversidadModel.FK_CursoMateria_Division" FromRole="CursoMateria" ToRole="Division" />
+          <Property Name="NotaFinal" Type="Int32" />
+          <NavigationProperty Name="Final" Relationship="DB_UniversidadModel.FK_Final_CursoMateria" FromRole="CursoMateria" ToRole="Final" />
+          <Property Name="Inscripcion_EFinal" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Materia">
+          <Key>
+            <PropertyRef Name="idMateria" />
+          </Key>
+          <Property Name="idMateria" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+          <Property Name="Legajo" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Correlativa" Relationship="Self.FK_Correlativa_Materia" FromRole="Materia" ToRole="Correlativa" />
+          <NavigationProperty Name="CursoMateria" Relationship="Self.RefMateria1" FromRole="Materia" ToRole="CursoMateria" />
+          <NavigationProperty Name="Profesor" Relationship="Self.RefProfesor10" FromRole="Materia" ToRole="Profesor" />
+          <Property Name="IdCurso" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Curso" Relationship="DB_UniversidadModel.FK_Materia_Curso" FromRole="Materia" ToRole="Curso" />
+        </EntityType>
+        <EntityType Name="Profesor">
+          <Key>
+            <PropertyRef Name="Legajo" />
+          </Key>
+          <Property Name="Legajo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NombreYApellido" Type="String" MaxLength="55" FixedLength="false" Unicode="false" />
+          <Property Name="Direccion" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="Telefono" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+          <NavigationProperty Name="Materia" Relationship="Self.RefProfesor10" FromRole="Profesor" ToRole="Materia" />
+          <Property Name="DNI" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <Association Name="RefAlumno5">
+          <End Role="Alumno" Type="Self.Alumno" Multiplicity="1" />
+          <End Role="CursoMateria" Type="Self.CursoMateria" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Alumno">
+              <PropertyRef Name="Matricula" />
+            </Principal>
+            <Dependent Role="CursoMateria">
+              <PropertyRef Name="Matricula" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Correlativa_Materia">
+          <End Role="Materia" Type="Self.Materia" Multiplicity="0..1" />
+          <End Role="Correlativa" Type="Self.Correlativa" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Materia">
+              <PropertyRef Name="idMateria" />
+            </Principal>
+            <Dependent Role="Correlativa">
+              <PropertyRef Name="idMateria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RefMateria1">
+          <End Role="Materia" Type="Self.Materia" Multiplicity="1" />
+          <End Role="CursoMateria" Type="Self.CursoMateria" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Materia">
+              <PropertyRef Name="idMateria" />
+            </Principal>
+            <Dependent Role="CursoMateria">
+              <PropertyRef Name="idMateria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RefProfesor10">
+          <End Role="Profesor" Type="Self.Profesor" Multiplicity="1" />
+          <End Role="Materia" Type="Self.Materia" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Profesor">
+              <PropertyRef Name="Legajo" />
+            </Principal>
+            <Dependent Role="Materia">
+              <PropertyRef Name="Legajo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DB_UniversidadEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Alumno" EntityType="Self.Alumno" />
+          <EntitySet Name="Aula" EntityType="Self.Aula" />
+          <EntitySet Name="Correlativa" EntityType="Self.Correlativa" />
+          <EntitySet Name="Curso" EntityType="Self.Curso" />
+          <EntitySet Name="CursoMateria" EntityType="Self.CursoMateria" />
+          <EntitySet Name="Materia" EntityType="Self.Materia" />
+          <EntitySet Name="Profesor" EntityType="Self.Profesor" />
+          <AssociationSet Name="RefAlumno5" Association="Self.RefAlumno5">
+            <End Role="Alumno" EntitySet="Alumno" />
+            <End Role="CursoMateria" EntitySet="CursoMateria" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Correlativa_Materia" Association="Self.FK_Correlativa_Materia">
+            <End Role="Materia" EntitySet="Materia" />
+            <End Role="Correlativa" EntitySet="Correlativa" />
+          </AssociationSet>
+          <AssociationSet Name="RefMateria1" Association="Self.RefMateria1">
+            <End Role="Materia" EntitySet="Materia" />
+            <End Role="CursoMateria" EntitySet="CursoMateria" />
+          </AssociationSet>
+          <AssociationSet Name="RefProfesor10" Association="Self.RefProfesor10">
+            <End Role="Profesor" EntitySet="Profesor" />
+            <End Role="Materia" EntitySet="Materia" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Curso_Aula" Association="DB_UniversidadModel.FK_Curso_Aula">
+            <End Role="Aula" EntitySet="Aula" />
+            <End Role="Curso" EntitySet="Curso" />
+          </AssociationSet>
+          <EntitySet Name="Division" EntityType="DB_UniversidadModel.Division" />
+          <AssociationSet Name="FK_Division_Curso" Association="DB_UniversidadModel.FK_Division_Curso">
+            <End Role="Curso" EntitySet="Curso" />
+            <End Role="Division" EntitySet="Division" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Materia_Curso" Association="DB_UniversidadModel.FK_Materia_Curso">
+            <End Role="Curso" EntitySet="Curso" />
+            <End Role="Materia" EntitySet="Materia" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CursoMateria_Division" Association="DB_UniversidadModel.FK_CursoMateria_Division">
+            <End Role="Division" EntitySet="Division" />
+            <End Role="CursoMateria" EntitySet="CursoMateria" />
+          </AssociationSet>
+          <EntitySet Name="Final" EntityType="DB_UniversidadModel.Final" />
+          <AssociationSet Name="FK_Final_CursoMateria" Association="DB_UniversidadModel.FK_Final_CursoMateria">
+            <End Role="CursoMateria" EntitySet="CursoMateria" />
+            <End Role="Final" EntitySet="Final" />
+          </AssociationSet>
+        </EntityContainer>
+        <Association Name="FK_Curso_Aula">
+          <End Type="DB_UniversidadModel.Aula" Role="Aula" Multiplicity="1" />
+          <End Type="DB_UniversidadModel.Curso" Role="Curso" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Aula">
+              <PropertyRef Name="idAula" />
+            </Principal>
+            <Dependent Role="Curso">
+              <PropertyRef Name="idAula" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Division">
+          <Key>
+            <PropertyRef Name="idDivision" />
+          </Key>
+          <Property Name="idDivision" Type="Int32" Nullable="false" />
+          <Property Name="NombreDivision" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+          <Property Name="idCurso" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Curso" Relationship="DB_UniversidadModel.FK_Division_Curso" FromRole="Division" ToRole="Curso" />
+          <NavigationProperty Name="CursoMateria" Relationship="DB_UniversidadModel.FK_CursoMateria_Division" FromRole="Division" ToRole="CursoMateria" />
+        </EntityType>
+        <Association Name="FK_Division_Curso">
+          <End Type="DB_UniversidadModel.Curso" Role="Curso" Multiplicity="1" />
+          <End Type="DB_UniversidadModel.Division" Role="Division" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Curso">
+              <PropertyRef Name="idCurso" />
+            </Principal>
+            <Dependent Role="Division">
+              <PropertyRef Name="idCurso" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Materia_Curso">
+          <End Type="DB_UniversidadModel.Curso" Role="Curso" Multiplicity="1" />
+          <End Type="DB_UniversidadModel.Materia" Role="Materia" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Curso">
+              <PropertyRef Name="idCurso" />
+            </Principal>
+            <Dependent Role="Materia">
+              <PropertyRef Name="IdCurso" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CursoMateria_Division">
+          <End Type="DB_UniversidadModel.Division" Role="Division" Multiplicity="0..1" />
+          <End Type="DB_UniversidadModel.CursoMateria" Role="CursoMateria" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Division">
+              <PropertyRef Name="idDivision" />
+            </Principal>
+            <Dependent Role="CursoMateria">
+              <PropertyRef Name="idDivision" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Final">
+          <Key>
+            <PropertyRef Name="intIdFinal" />
+          </Key>
+          <Property Name="intIdFinal" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="idCursoMateria" Type="Int32" Nullable="false" />
+          <Property Name="NotaExamen" Type="Int32" />
+          <Property Name="EstadoEFinal" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="CursoMateria" Relationship="DB_UniversidadModel.FK_Final_CursoMateria" FromRole="Final" ToRole="CursoMateria" />
+        </EntityType>
+        <Association Name="FK_Final_CursoMateria">
+          <End Type="DB_UniversidadModel.CursoMateria" Role="CursoMateria" Multiplicity="1" />
+          <End Type="DB_UniversidadModel.Final" Role="Final" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CursoMateria">
+              <PropertyRef Name="idCursoMateria" />
+            </Principal>
+            <Dependent Role="Final">
+              <PropertyRef Name="idCursoMateria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DB_UniversidadModelStoreContainer" CdmEntityContainer="DB_UniversidadEntities">
+          <EntitySetMapping Name="Alumno">
+            <EntityTypeMapping TypeName="DB_UniversidadModel.Alumno">
+              <MappingFragment StoreEntitySet="Alumno">
+                <ScalarProperty Name="Matricula" ColumnName="Matricula" />
+                <ScalarProperty Name="NombreYApellido" ColumnName="NombreYApellido" />
+                <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+                <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Aula">
+            <EntityTypeMapping TypeName="DB_UniversidadModel.Aula">
+              <MappingFragment StoreEntitySet="Aula">
+                <ScalarProperty Name="idAula" ColumnName="idAula" />
+                <ScalarProperty Name="NombreAula" ColumnName="NombreAula" />
+                <ScalarProperty Name="ConexionRed" ColumnName="ConexionRed" />
+                <ScalarProperty Name="Proyector" ColumnName="Proyector" />
+                <ScalarProperty Name="Capacidad" ColumnName="Capacidad" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Correlativa">
+            <EntityTypeMapping TypeName="DB_UniversidadModel.Correlativa">
+              <MappingFragment StoreEntitySet="Correlativa">
+                <ScalarProperty Name="idCorrelativa" ColumnName="idCorrelativa" />
+                <ScalarProperty Name="idMateria" ColumnName="idMateria" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Requisito" ColumnName="Requisito" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Curso">
+            <EntityTypeMapping TypeName="DB_UniversidadModel.Curso">
+              <MappingFragment StoreEntitySet="Curso">
+                <ScalarProperty Name="idAula" ColumnName="idAula" />
+                <ScalarProperty Name="idCurso" ColumnName="idCurso" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CursoMateria">
+            <EntityTypeMapping TypeName="DB_UniversidadModel.CursoMateria">
+              <MappingFragment StoreEntitySet="CursoMateria">
+                <ScalarProperty Name="Inscripcion_EFinal" ColumnName="Inscripcion_EFinal" />
+                <ScalarProperty Name="NotaFinal" ColumnName="NotaFinal" />
+                <ScalarProperty Name="idDivision" ColumnName="idDivision" />
+                <ScalarProperty Name="idCursoMateria" ColumnName="idCursoMateria" />
+                <ScalarProperty Name="idMateria" ColumnName="idMateria" />
+                <ScalarProperty Name="Matricula" ColumnName="Matricula" />
+                <ScalarProperty Name="PrimerParcial" ColumnName="PrimerParcial" />
+                <ScalarProperty Name="SegundoParcial" ColumnName="SegundoParcial" />
+                <ScalarProperty Name="TercerParcial" ColumnName="TercerParcial" />
+                <ScalarProperty Name="PrimerRecuperatorio" ColumnName="PrimerRecuperatorio" />
+                <ScalarProperty Name="SegundoRecuperatorio" ColumnName="SegundoRecuperatorio" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Materia">
+            <EntityTypeMapping TypeName="DB_UniversidadModel.Materia">
+              <MappingFragment StoreEntitySet="Materia">
+                <ScalarProperty Name="IdCurso" ColumnName="IdCurso" />
+                <ScalarProperty Name="idMateria" ColumnName="idMateria" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Legajo" ColumnName="Legajo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Profesor">
+            <EntityTypeMapping TypeName="DB_UniversidadModel.Profesor">
+              <MappingFragment StoreEntitySet="Profesor">
+                <ScalarProperty Name="DNI" ColumnName="DNI" />
+                <ScalarProperty Name="Legajo" ColumnName="Legajo" />
+                <ScalarProperty Name="NombreYApellido" ColumnName="NombreYApellido" />
+                <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+                <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Division">
+            <EntityTypeMapping TypeName="DB_UniversidadModel.Division">
+              <MappingFragment StoreEntitySet="Division">
+                <ScalarProperty Name="idCurso" ColumnName="idCurso" />
+                <ScalarProperty Name="NombreDivision" ColumnName="NombreDivision" />
+                <ScalarProperty Name="idDivision" ColumnName="idDivision" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Final">
+            <EntityTypeMapping TypeName="DB_UniversidadModel.Final">
+              <MappingFragment StoreEntitySet="Final">
+                <ScalarProperty Name="EstadoEFinal" ColumnName="EstadoEFinal" />
+                <ScalarProperty Name="NotaExamen" ColumnName="NotaExamen" />
+                <ScalarProperty Name="idCursoMateria" ColumnName="idCursoMateria" />
+                <ScalarProperty Name="intIdFinal" ColumnName="intIdFinal" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

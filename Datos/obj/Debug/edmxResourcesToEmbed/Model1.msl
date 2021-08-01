@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DB_UniversidadModelStoreContainer" CdmEntityContainer="DB_UniversidadEntities">
+    <EntitySetMapping Name="Alumno">
+      <EntityTypeMapping TypeName="DB_UniversidadModel.Alumno">
+        <MappingFragment StoreEntitySet="Alumno">
+          <ScalarProperty Name="Matricula" ColumnName="Matricula" />
+          <ScalarProperty Name="NombreYApellido" ColumnName="NombreYApellido" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Aula">
+      <EntityTypeMapping TypeName="DB_UniversidadModel.Aula">
+        <MappingFragment StoreEntitySet="Aula">
+          <ScalarProperty Name="idAula" ColumnName="idAula" />
+          <ScalarProperty Name="NombreAula" ColumnName="NombreAula" />
+          <ScalarProperty Name="ConexionRed" ColumnName="ConexionRed" />
+          <ScalarProperty Name="Proyector" ColumnName="Proyector" />
+          <ScalarProperty Name="Capacidad" ColumnName="Capacidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Correlativa">
+      <EntityTypeMapping TypeName="DB_UniversidadModel.Correlativa">
+        <MappingFragment StoreEntitySet="Correlativa">
+          <ScalarProperty Name="idCorrelativa" ColumnName="idCorrelativa" />
+          <ScalarProperty Name="idMateria" ColumnName="idMateria" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Requisito" ColumnName="Requisito" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Curso">
+      <EntityTypeMapping TypeName="DB_UniversidadModel.Curso">
+        <MappingFragment StoreEntitySet="Curso">
+          <ScalarProperty Name="idAula" ColumnName="idAula" />
+          <ScalarProperty Name="idCurso" ColumnName="idCurso" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CursoMateria">
+      <EntityTypeMapping TypeName="DB_UniversidadModel.CursoMateria">
+        <MappingFragment StoreEntitySet="CursoMateria">
+          <ScalarProperty Name="Inscripcion_EFinal" ColumnName="Inscripcion_EFinal" />
+          <ScalarProperty Name="NotaFinal" ColumnName="NotaFinal" />
+          <ScalarProperty Name="idDivision" ColumnName="idDivision" />
+          <ScalarProperty Name="idCursoMateria" ColumnName="idCursoMateria" />
+          <ScalarProperty Name="idMateria" ColumnName="idMateria" />
+          <ScalarProperty Name="Matricula" ColumnName="Matricula" />
+          <ScalarProperty Name="PrimerParcial" ColumnName="PrimerParcial" />
+          <ScalarProperty Name="SegundoParcial" ColumnName="SegundoParcial" />
+          <ScalarProperty Name="TercerParcial" ColumnName="TercerParcial" />
+          <ScalarProperty Name="PrimerRecuperatorio" ColumnName="PrimerRecuperatorio" />
+          <ScalarProperty Name="SegundoRecuperatorio" ColumnName="SegundoRecuperatorio" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Materia">
+      <EntityTypeMapping TypeName="DB_UniversidadModel.Materia">
+        <MappingFragment StoreEntitySet="Materia">
+          <ScalarProperty Name="IdCurso" ColumnName="IdCurso" />
+          <ScalarProperty Name="idMateria" ColumnName="idMateria" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Legajo" ColumnName="Legajo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Profesor">
+      <EntityTypeMapping TypeName="DB_UniversidadModel.Profesor">
+        <MappingFragment StoreEntitySet="Profesor">
+          <ScalarProperty Name="DNI" ColumnName="DNI" />
+          <ScalarProperty Name="Legajo" ColumnName="Legajo" />
+          <ScalarProperty Name="NombreYApellido" ColumnName="NombreYApellido" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Division">
+      <EntityTypeMapping TypeName="DB_UniversidadModel.Division">
+        <MappingFragment StoreEntitySet="Division">
+          <ScalarProperty Name="idCurso" ColumnName="idCurso" />
+          <ScalarProperty Name="NombreDivision" ColumnName="NombreDivision" />
+          <ScalarProperty Name="idDivision" ColumnName="idDivision" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Final">
+      <EntityTypeMapping TypeName="DB_UniversidadModel.Final">
+        <MappingFragment StoreEntitySet="Final">
+          <ScalarProperty Name="EstadoEFinal" ColumnName="EstadoEFinal" />
+          <ScalarProperty Name="NotaExamen" ColumnName="NotaExamen" />
+          <ScalarProperty Name="idCursoMateria" ColumnName="idCursoMateria" />
+          <ScalarProperty Name="intIdFinal" ColumnName="intIdFinal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

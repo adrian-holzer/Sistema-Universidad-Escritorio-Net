@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6d65fb2ebe6946a5a88423fede163dbb" Name="Diagram1" ZoomLevel="85">
+        <EntityTypeShape EntityType="DB_UniversidadModel.Alumno" Width="1.5" PointX="6" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_UniversidadModel.Aula" Width="1.5" PointX="1.125" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_UniversidadModel.Correlativa" Width="1.5" PointX="5.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_UniversidadModel.Curso" Width="1.5" PointX="1" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_UniversidadModel.CursoMateria" Width="1.5" PointX="8.25" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_UniversidadModel.Materia" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_UniversidadModel.Profesor" Width="1.5" PointX="0.75" PointY="3.25" IsExpanded="true" />
+        <AssociationConnector Association="DB_UniversidadModel.RefAlumno5" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_UniversidadModel.FK_Correlativa_Materia" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_UniversidadModel.RefMateria1" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_UniversidadModel.RefProfesor10" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_UniversidadModel.FK_Curso_Aula" />
+        <EntityTypeShape EntityType="DB_UniversidadModel.Division" Width="1.5" PointX="6.25" PointY="10.5" />
+        <AssociationConnector Association="DB_UniversidadModel.FK_Division_Curso" />
+        <AssociationConnector Association="DB_UniversidadModel.FK_Materia_Curso" ></AssociationConnector>
+        <AssociationConnector Association="DB_UniversidadModel.FK_CursoMateria_Division" />
+        <EntityTypeShape EntityType="DB_UniversidadModel.Final" Width="1.5" PointX="10.5" PointY="3.5" />
+        <AssociationConnector Association="DB_UniversidadModel.FK_Final_CursoMateria" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

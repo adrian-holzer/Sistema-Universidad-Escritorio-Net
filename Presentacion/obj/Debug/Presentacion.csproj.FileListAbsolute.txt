@@ -1,0 +1,448 @@
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Datos.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Negocio.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\EntityFramework.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Datos.pdb
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Datos.dll.config
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Negocio.pdb
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\EntityFramework.xml
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.FormularioPrincipal.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.FrmAltaMateria.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.FrmBajaMateria.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.FrmModificarMateria.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.FrmModifCorr.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.FrmAltaAlumno.resources
+C:\Users\usuario\Documents\tsp\Laboratorio 3\Universidad v.2\Universidad\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\usuario\Documents\tsp\Laboratorio 3\Universidad v.2\Universidad\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\usuario\Documents\tsp\Laboratorio 3\Universidad v.2\Universidad\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\usuario\Documents\tsp\Laboratorio 3\Universidad v.2\Universidad\Presentacion\bin\Debug\Datos.dll
+C:\Users\usuario\Documents\tsp\Laboratorio 3\Universidad v.2\Universidad\Presentacion\bin\Debug\EntityFramework.dll
+C:\Users\usuario\Documents\tsp\Laboratorio 3\Universidad v.2\Universidad\Presentacion\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\usuario\Documents\tsp\Laboratorio 3\Universidad v.2\Universidad\Presentacion\bin\Debug\Negocio.dll
+C:\Users\usuario\Documents\tsp\Laboratorio 3\Universidad v.2\Universidad\Presentacion\bin\Debug\Datos.pdb
+C:\Users\usuario\Documents\tsp\Laboratorio 3\Universidad v.2\Universidad\Presentacion\bin\Debug\Datos.dll.config
+C:\Users\usuario\Documents\tsp\Laboratorio 3\Universidad v.2\Universidad\Presentacion\bin\Debug\Negocio.pdb
+C:\Users\usuario\Documents\tsp\Laboratorio 3\Universidad v.2\Universidad\Presentacion\bin\Debug\EntityFramework.xml
+C:\Users\usuario\Documents\tsp\Laboratorio 3\Universidad v.2\Universidad\Presentacion\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\usuario\Documents\tsp\Laboratorio 3\Universidad v.2\Universidad\Presentacion\obj\Debug\Presentacion.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\tsp\Laboratorio 3\Universidad v.2\Universidad\Presentacion\obj\Debug\Presentacion.FormularioPrincipal.resources
+C:\Users\usuario\Documents\tsp\Laboratorio 3\Universidad v.2\Universidad\Presentacion\obj\Debug\Presentacion.FrmAltaAlumno.resources
+C:\Users\usuario\Documents\tsp\Laboratorio 3\Universidad v.2\Universidad\Presentacion\obj\Debug\Presentacion.FrmAltaMateria.resources
+C:\Users\usuario\Documents\tsp\Laboratorio 3\Universidad v.2\Universidad\Presentacion\obj\Debug\Presentacion.FrmBajaMateria.resources
+C:\Users\usuario\Documents\tsp\Laboratorio 3\Universidad v.2\Universidad\Presentacion\obj\Debug\Presentacion.FrmModifCorr.resources
+C:\Users\usuario\Documents\tsp\Laboratorio 3\Universidad v.2\Universidad\Presentacion\obj\Debug\Presentacion.FrmModificarMateria.resources
+C:\Users\usuario\Documents\tsp\Laboratorio 3\Universidad v.2\Universidad\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\usuario\Documents\tsp\Laboratorio 3\Universidad v.2\Universidad\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\usuario\Documents\tsp\Laboratorio 3\Universidad v.2\Universidad\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\tsp\Laboratorio 3\Universidad v.2\Universidad\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\usuario\Documents\tsp\Laboratorio 3\Universidad v.2\Universidad\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\usuario\Documents\tsp\Laboratorio 3\Universidad v.2\Universidad\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\EnvDTE.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\stdole.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\EnvDTE80.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\VSLangProj.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\VSLangProj80.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Newtonsoft.Json.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Microsoft.MSXML.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\VSLangProj2.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\es\Microsoft.VisualStudio.Data.Services.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\bin\Debug\es\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.exe.config
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.ComprobanteAltaAlumno.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\RdlCompile.cache
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\RdlCompile.compiled
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.FrmInscribirAMateria.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.FrmListadoMaterias.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.InscripcionCursado_Comprobante.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.ComprobanteInscripcionACursado.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.RegistrarNotaAlumnos.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.RegistrarNotaAluMat.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.RegistrarParciales_Recuperatorios.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.AlumnoBaja.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.AlumnoModificar.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.AlumnoMateriasEstado.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.ListaMateriasCursando.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.ListaMateriasRegulares.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.ListaMateriasAprobadas.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.InformacionCurso.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.Info_Curso_Materias.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.InfoAulas.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.Materias_Informacion.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.Materias_Informacion_AlumnosCursa.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.Inscribir_Final_Alumno_Materia.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.Inscribir_Final_Alumnos.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.Comprobante_Inscripcion_ExamenFinal.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.Registrar_Final_Materias.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.Registrar_Final_Materias_AlumnosInsc.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.Registrar_Final_Materias_AlumnosInsc_Nota.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.AltaProfesor.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.BajaProfesores.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.Baja_Profes_ModifDictadas.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.ModificarProfesor.resources
+C:\Users\usuario\Documents\Universidad\Presentacion\obj\Debug\Presentacion.ModificarAula.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Datos.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\EntityFramework.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Negocio.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\EnvDTE.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\stdole.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\EnvDTE80.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\VSLangProj.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\VSLangProj80.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Newtonsoft.Json.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Microsoft.MSXML.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\VSLangProj2.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Datos.pdb
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Datos.dll.config
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Negocio.pdb
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\EntityFramework.xml
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\es\Microsoft.VisualStudio.Data.Services.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\bin\Debug\es\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.exe.config
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.AltaProfesor.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.AlumnoBaja.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.AlumnoMateriasEstado.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.AlumnoModificar.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.BajaProfesores.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.Baja_Profes_ModifDictadas.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.ComprobanteAltaAlumno.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.ComprobanteInscripcionACursado.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.Comprobante_Inscripcion_ExamenFinal.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.FormularioPrincipal.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.FrmAltaAlumno.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.FrmAltaMateria.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.FrmBajaMateria.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.FrmInscribirAMateria.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.FrmListadoMaterias.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.FrmModifCorr.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.FrmModificarMateria.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.Inscribir_Final_Alumno_Materia.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.InfoAulas.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.InformacionCurso.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.Info_Curso_Materias.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.Inscribir_Final_Alumnos.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.InscripcionCursado_Comprobante.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.ListaMateriasAprobadas.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.ListaMateriasCursando.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.ListaMateriasRegulares.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.Materias_Informacion.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.Materias_Informacion_AlumnosCursa.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.ModificarAula.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.ModificarProfesor.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.RegistrarNotaAluMat.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.RegistrarNotaAlumnos.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.RegistrarParciales_Recuperatorios.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.Registrar_Final_Materias.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.Registrar_Final_Materias_AlumnosInsc.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.Registrar_Final_Materias_AlumnosInsc_Nota.resources
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\RdlCompile.cache
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\RdlCompile.compiled
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\usuario\Documents\tsp\Universidad\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Datos.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\EntityFramework.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Negocio.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\EnvDTE.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\stdole.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\EnvDTE80.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\VSLangProj.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\VSLangProj80.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Newtonsoft.Json.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Microsoft.MSXML.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\VSLangProj2.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Datos.pdb
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Datos.dll.config
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Negocio.pdb
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\EntityFramework.xml
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\es\Microsoft.VisualStudio.Data.Services.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\bin\Debug\es\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.exe.config
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.AltaProfesor.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.AlumnoBaja.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.AlumnoMateriasEstado.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.AlumnoModificar.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.BajaProfesores.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.Baja_Profes_ModifDictadas.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.ComprobanteAltaAlumno.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.ComprobanteInscripcionACursado.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.Comprobante_Inscripcion_ExamenFinal.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.FormularioPrincipal.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.FrmAltaAlumno.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.FrmAltaMateria.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.FrmBajaMateria.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.FrmInscribirAMateria.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.FrmListadoMaterias.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.FrmModifCorr.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.FrmModificarMateria.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.Inscribir_Final_Alumno_Materia.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.InfoAulas.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.InformacionCurso.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.Info_Curso_Materias.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.Inscribir_Final_Alumnos.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.InscripcionCursado_Comprobante.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.ListaMateriasAprobadas.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.ListaMateriasCursando.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.ListaMateriasRegulares.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.Materias_Informacion.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.Materias_Informacion_AlumnosCursa.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.ModificarAula.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.ModificarProfesor.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.RegistrarNotaAluMat.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.RegistrarNotaAlumnos.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.RegistrarParciales_Recuperatorios.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.Registrar_Final_Materias.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.Registrar_Final_Materias_AlumnosInsc.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.Registrar_Final_Materias_AlumnosInsc_Nota.resources
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Presentacion\obj\Debug\Presentacion.pdb

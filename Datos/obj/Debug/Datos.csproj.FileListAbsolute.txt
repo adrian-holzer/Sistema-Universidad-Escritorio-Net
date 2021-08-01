@@ -1,0 +1,24 @@
+C:\Users\usuario\Documents\Universidad\Datos\bin\Debug\Datos.dll.config
+C:\Users\usuario\Documents\Universidad\Datos\bin\Debug\Datos.dll
+C:\Users\usuario\Documents\Universidad\Datos\bin\Debug\Datos.pdb
+C:\Users\usuario\Documents\Universidad\Datos\bin\Debug\EntityFramework.dll
+C:\Users\usuario\Documents\Universidad\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\usuario\Documents\Universidad\Datos\bin\Debug\EntityFramework.xml
+C:\Users\usuario\Documents\Universidad\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\usuario\Documents\Universidad\Datos\obj\Debug\Datos.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\Universidad\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\Universidad\Datos\obj\Debug\Datos.csproj.CopyComplete
+C:\Users\usuario\Documents\Universidad\Datos\obj\Debug\Datos.dll
+C:\Users\usuario\Documents\Universidad\Datos\obj\Debug\Datos.pdb
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Datos\bin\Debug\Datos.dll.config
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Datos\bin\Debug\Datos.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Datos\bin\Debug\Datos.pdb
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Datos\bin\Debug\EntityFramework.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Datos\bin\Debug\EntityFramework.xml
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Datos\obj\Debug\Datos.csproj.CopyComplete
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Datos\obj\Debug\Datos.dll
+C:\Users\usuario\Documents\tsp\Trabajos Practicos\Universidad\Datos\obj\Debug\Datos.pdb
